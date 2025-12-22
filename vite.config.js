@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/',  // Changed from '/mystiq-city/' to '/' for GitHub Pages root
+  base: '/mystiq-city/',  // for GitHub Pages root
   server: {
     port: 5173,
     host: 'localhost',
