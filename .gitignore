@@ -1,3 +1,8 @@
 node_modules/
 build/
 # Remove this line if it exists: /docs
+
+# VSCode Configuration
+.vscode/
+launch.json
+tasks.json
