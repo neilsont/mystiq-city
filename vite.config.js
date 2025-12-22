@@ -3,14 +3,14 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/mystiq-city/',
+  base: '/',  // Changed from '/mystiq-city/' to '/' for GitHub Pages root
   server: {
     port: 5173,
     host: 'localhost',
     strictPort: false
   },
   build: {
-    outDir: 'docs',  // Changed from 'dist' to 'docs'
+    outDir: 'dist',  // Changed back to 'dist' (standard for Vite)
     sourcemap: false,
     minify: 'esbuild'
   }
