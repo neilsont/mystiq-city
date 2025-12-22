@@ -1,0 +1,29 @@
+{
+  "name": "mystiq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "EnhancedGameFeatures.js",
+  "scripts": {
+    "start": "node index.js",
+  "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neilsont/MystiQ.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neilsont/MystiQ/issues"
+  },
+  "homepage": "https://github.com/neilsont/MystiQ#readme",
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11",
+    "prettier": "^3.7.4",
+    "webpack": "^5.104.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
