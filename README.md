@@ -247,7 +247,7 @@ The app works on any platform supporting Node.js:
 ## Support
 
 - **Issues:** Open GitHub issue
-- **Email:** [neilsont715@gmail.com]
+- **Email:** [cosmicpenguin2@gmail.com]
 - **Documentation:** Check README
 
 ## License
