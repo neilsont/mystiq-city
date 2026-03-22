@@ -3,8 +3,11 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [MystiQ-City]
-  pull_request:
-    branches: [MystiQ-City]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build:
